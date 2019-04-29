@@ -27,6 +27,7 @@ class Pancake extends React.Component {
     });
   };
 
+
   startInterval = () => {
     this.interval = setInterval(this.updateCounter, 1000);
   };
