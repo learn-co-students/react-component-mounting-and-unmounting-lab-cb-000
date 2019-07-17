@@ -53,11 +53,11 @@ class Pancake extends React.Component {
   };
 
   componentDidMount() {
-    startInterval();
+    this.startInterval();
   }
 
   componentWillUnmount() {
-    cleanUpInterval();
+    this.cleanUpInterval();
   }
 
   render() {
